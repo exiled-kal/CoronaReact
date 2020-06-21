@@ -1,18 +1,22 @@
 .container {
-    margin: 50px 0;
+    margin: 60px 0;
+    background-color: aquamarine;
+    
 }
 
 .card {
     /* for materal ui we might have to use the important */
     margin: 0 2% !important;
+    width: 500px;
+    
 }
 
 .infected {
-    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+    border-bottom: 10px solid rgba(255, 153, 0, 0.5);
 }
 
 .recovered {
-    border-bottom: 10px solid rgba(0, 255, 136, 0.5);
+    border-bottom: 25px solid rgba(0, 255, 136, 0.5);
 }
 
 .deaths {

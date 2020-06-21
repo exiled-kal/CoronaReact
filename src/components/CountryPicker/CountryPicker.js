@@ -16,9 +16,10 @@ const [fetchedCountries, setFetchedCountries] = useState([]);
     },[setFetchedCountries]);
     return (
         <div>
+            
             <FormControl className={styles.formControl}>
                 <NativeSelect defaultValue="" onChange={(e) => handleCountryChange(e.target.value)}>
-                    <option value="">Global</option>
+                    <option value="">Around the world</option>
                     {fetchedCountries.map((country,i) => <option key={i}value={country}>{country}</option>)}
                 </NativeSelect>
             </FormControl>
